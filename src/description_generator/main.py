@@ -1,10 +1,4 @@
 import time
-from description_generator.openai_api import (
-    load_openai_api_key,
-    openai_api_test,
-)
-
-
 from description_generator.models import (
     BookItemModel,
     ItemType,
