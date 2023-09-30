@@ -4,7 +4,7 @@ from dataclasses import dataclass, asdict
 from enum import Enum
 
 
-class SubjectType(Enum):
+class ItemType(Enum):
     Background = 0
     Bird = 1
     Plant = 2
@@ -22,7 +22,7 @@ class BookItemModel:
     _name: str
     _title: str
     _description: str
-    _subjectType: str
+    _itemType: str
     _season: str
 
     def __init__(
@@ -30,12 +30,12 @@ class BookItemModel:
         name: str,
         title: str,
         description: str,
-        subject_type: SubjectType,
+        item_type: ItemType,
     ):
         self._name = name
         self._title = title
         self._description = description
-        self._subjectType = subject_type.name
+        self._itemType = item_type.name
         self._season = Season.Spring.name
 
     def to_dict(self):
