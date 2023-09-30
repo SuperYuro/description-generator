@@ -11,6 +11,8 @@ dependencies = [
     "torchvision>=0.15.2",
     "torchaudio>=2.0.2",
     "transformers>=4.33.3",
+    "sentencepiece>=0.1.99",
+    "protobuf>=4.24.3",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
