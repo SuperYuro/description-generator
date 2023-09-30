@@ -1,6 +1,6 @@
 import requests
 
-WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
+WIKIPEDIA_ENDPOINT = "https://ja.wikipedia.org/w/api.php"
 
 
 def get_title_from_keyword(keyword: str) -> str | None:
