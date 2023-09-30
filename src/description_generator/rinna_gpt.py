@@ -1,4 +1,3 @@
-from pyexpat import model
 import torch
 from transformers import (
     AutoTokenizer,
