@@ -1,4 +1,5 @@
 import time
+from description_generator.openai_api import get_api_key_from_env
 
 
 from models import BookItemModel, SubjectType, list_to_json
@@ -63,4 +64,4 @@ def wikipedia_test():
 
 
 if __name__ == "__main__":
-    main()
+    print(get_api_key_from_env())
