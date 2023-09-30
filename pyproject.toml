@@ -6,6 +6,7 @@ dependencies = [
     "html2text>=2020.1.16",
     "pandas>=2.0.3",
     "requests>=2.31.0",
+    "openai>=0.28.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
